@@ -1,0 +1,9 @@
+body {
+  background: url(https://images.pexels.com/photos/462162/pexels-photo-462162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+
+min-height: 500px;
+
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top;
+ }

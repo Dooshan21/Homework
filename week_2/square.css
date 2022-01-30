@@ -1,0 +1,27 @@
+.container{
+  border: 2px red solid;
+  height: 400px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.ruler{
+  background-color: skyblue;
+  width: 600px;
+  height: 100px;
+}
+
+.notebook{
+  background-color: darkgoldenrod;
+  width: 300px;
+  height: 200px;
+}
+
+.text{
+  text-align: center;
+  color: black;
+ padding: 30px;
+}

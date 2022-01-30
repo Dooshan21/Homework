@@ -1,0 +1,51 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-column-gap: 10px;
+  grid-template-rows: repeat(6, 1fr);
+  grid-row-gap: 10px;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 600px;
+  width: 450px;
+  text-align:center;
+  font-family: cursive;
+  color: white;
+}
+
+.Header{
+   background-color: skyblue;
+  grid-column: 1, 4;
+}
+
+.Hero{
+  background-color: violet;
+grid-row: 2, 2;
+}
+
+.Main_content{
+  background-color: yellow;
+}
+
+.Sidebar{
+  background-color: green;
+}
+
+.Extra_content{
+  background-color: grey;
+}
+
+.Related_images{
+  background-color: darkgreen;
+}
+
+.Related_post{
+  background-color: violet;
+}
+
+.Footer{
+  color: white;
+  background-color: orange;
+}
